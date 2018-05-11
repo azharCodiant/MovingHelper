@@ -1,5 +1,6 @@
-language: objective-c  #1
-osx_image: xcode9.2 #2
-xcode_workspace: PhotoSharingApp.xcworkspace #3
-xcode_scheme: MovingHelper #4
-xcode_sdk: iphonesimulator11.2 #5
+language: objective-c
+osx_image: xcode9
+xcode_workspace: PhotoSharingApp.xcworkspace
+xcode_scheme: ProjectTest
+xcode_sdk: iphonesimulator
+os: osx

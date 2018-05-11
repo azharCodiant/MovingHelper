@@ -24,6 +24,7 @@
 		38C7CD2B2034712F00901D06 /* NSScrollViewLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C7CD292034712E00901D06 /* NSScrollViewLoader.swift */; };
 		74C368EA731C1101AC0E20EE /* Pods_PhotoSharingApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6713B3EC3C58000A9BD9F74 /* Pods_PhotoSharingApp.framework */; };
 		770DEEA52086278300041D79 /* ApiConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770DEEA42086278300041D79 /* ApiConstants.swift */; };
+		7783DB2820A57F4100329666 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = 7783DB2720A57F4100329666 /* .travis.yml */; };
 		C8375B09202C21D400266F16 /* CustomTabbarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8375B08202C21D400266F16 /* CustomTabbarVC.swift */; };
 		C8375B10202C7A0800266F16 /* InvitePeopleTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8375B0F202C7A0800266F16 /* InvitePeopleTVC.swift */; };
 		C861562C202B3D5E00CCA6F0 /* SelectPhotosVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C861562B202B3D5E00CCA6F0 /* SelectPhotosVC.swift */; };
@@ -71,6 +72,7 @@
 		4B1634F3D435CA3E8A6857A6 /* Pods-PhotoSharingApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoSharingApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoSharingApp/Pods-PhotoSharingApp.release.xcconfig"; sourceTree = "<group>"; };
 		770DEEA42086278300041D79 /* ApiConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiConstants.swift; sourceTree = "<group>"; };
 		774DA8802087861C0043FAC4 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		7783DB2720A57F4100329666 /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
 		A6713B3EC3C58000A9BD9F74 /* Pods_PhotoSharingApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhotoSharingApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8375B08202C21D400266F16 /* CustomTabbarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabbarVC.swift; sourceTree = "<group>"; };
 		C8375B0F202C7A0800266F16 /* InvitePeopleTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvitePeopleTVC.swift; sourceTree = "<group>"; };
@@ -282,6 +284,7 @@
 		C864748C20208508005ED80D = {
 			isa = PBXGroup;
 			children = (
+				7783DB2720A57F4100329666 /* .travis.yml */,
 				C864749720208508005ED80D /* PhotoSharingApp */,
 				C864749620208508005ED80D /* Products */,
 				73E840C787D59AA13437C8B4 /* Pods */,
@@ -456,6 +459,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7783DB2820A57F4100329666 /* .travis.yml in Resources */,
 				C86474A320208508005ED80D /* LaunchScreen.storyboard in Resources */,
 				38AFACB62035C81B009456E2 /* credentials.plist in Resources */,
 				C86474A020208508005ED80D /* Assets.xcassets in Resources */,
