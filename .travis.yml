@@ -1,6 +1,1 @@
-language: objective-c
-osx_image: xcode9
-xcode_workspace: PhotoSharingApp.xcworkspace
-xcode_scheme: ProjectTest
-xcode_sdk: iphonesimulator
-os: osx
+- xcodebuild clean build -sdk iphonesimulator -workspace PhotoSharingApp.xcworkspace -scheme ProjectTests CODE_SIGNING_REQUIRED=NO
